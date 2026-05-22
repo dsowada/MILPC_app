@@ -1,0 +1,10 @@
+[
+  {
+    "type": "party",
+    "text": "{player1} drinks 2 sips."
+  },
+  {
+    "type": "party",
+    "text": "{player1} gives {player2} a challenge."
+  }
+]

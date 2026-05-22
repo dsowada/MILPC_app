@@ -1,0 +1,77 @@
+Build a minimalistic mobile-first party game web app using React, Vite and TailwindCSS.
+
+The application should be very simple, lightweight and fun-focused. No backend is required.
+
+The app should support up to 4 players.
+
+Main functionality:
+- Players can enter their names on the start screen
+- User can select one of three game modes:
+  - Piccolo
+  - Deep Talk
+  - Mixed
+
+Game flow:
+- One card/question is displayed at a time
+- Questions are loaded from local JSON files
+- Questions can contain placeholders like:
+  {player1}
+  {player2}
+- Random player names should automatically replace placeholders
+- Buttons:
+  - Next
+  - Skip
+
+UI requirements:
+- Dark minimalistic design
+- Mobile-first responsive layout
+- Centered card layout
+- Smooth but subtle animations
+- Large touch-friendly buttons
+- Clean typography
+- Focus on simplicity and fast gameplay
+
+Technical requirements:
+- Use React + Vite
+- Use TailwindCSS
+- Use reusable React components
+- Keep code simple and maintainable
+- No backend
+- No authentication
+- No database
+
+Project structure:
+
+src/
+  components/
+  pages/
+  data/
+
+Create these example files:
+- piccolo.json
+- deep.json
+
+Important:
+Only include 1-2 example questions in each JSON file.
+The remaining questions will be added manually later.
+
+Example JSON structure:
+
+[
+  {
+    "type": "party",
+    "text": "{player1} drinks 2 sips."
+  }
+]
+
+Additional features:
+- Prevent immediate duplicate questions
+- Shuffle questions
+- Progress counter
+- Save player names in localStorage
+- Smooth transitions between cards
+
+Deployment:
+Prepare the project so it can easily be deployed to GitHub Pages or Vercel.
+
+Generate clean production-ready code with clear folder structure and comments where useful.
