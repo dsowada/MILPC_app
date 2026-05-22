@@ -13,10 +13,6 @@
   },
   {
     "type": "party",
-    "text": "{player1} und {player2} machen ein Star-Wars-Quiz. Wer zuerst falsch liegt, trinkt."
-  },
-  {
-    "type": "party",
     "text": "{player1} muss ein Kompliment an jeden im Raum machen. Wer lacht, trinkt."
   },
   {

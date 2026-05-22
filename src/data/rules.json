@@ -1,0 +1,62 @@
+[
+  {
+    "type": "rules",
+    "text": "Der Erste, der sein Getränk leer hat, darf 5 Schlücke verteilen."
+  },
+  {
+    "type": "rules",
+    "text": "{player1} ist ab jetzt der Spielmeister. Immer wenn er seine Nase berührt, müssen alle nachziehen. Der Letzte trinkt 2 Schlücke."
+  },
+  {
+    "type": "rules",
+    "text": "Ab jetzt darf niemand mehr das Wort „ich“ sagen. Wer es sagt, trinkt."
+  },
+  {
+    "type": "rules",
+    "text": "Der Erste, der seine rechte Hand auf den Tisch legt, verteilt 3 Schlücke. Der Letzte trinkt zusätzlich."
+  },
+  {
+    "type": "rules",
+    "text": "{player1} und {player2} sind Trink-Buddys. Wenn einer trinkt, muss der andere mittrinken."
+  },
+  {
+    "type": "rules",
+    "text": "Ab jetzt darf niemand mehr fluchen. Jeder Verstoß bedeutet 2 Schlücke."
+  },
+  {
+    "type": "rules",
+    "text": "Immer wenn jemand lacht, darf {player1} einen Schluck verteilen."
+  },
+  {
+    "type": "rules",
+    "text": "Wer sein Handy benutzt, muss sofort trinken."
+  },
+  {
+    "type": "rules",
+    "text": "{player1} bestimmt ein neues Wort für „trinken“. Wer das alte Wort benutzt, trinkt."
+  },
+  {
+    "type": "rules",
+    "text": "Immer wenn jemand den Namen eines anderen Spielers sagt, muss er trinken."
+  },
+  {
+    "type": "rules",
+    "text": "Ab jetzt muss jeder vor dem Trinken „Prost“ sagen. Wer es vergisst, trinkt doppelt."
+  },
+  {
+    "type": "rules",
+    "text": "{player1} ist jetzt der König. Niemand darf ihm widersprechen. Wer es doch macht, trinkt."
+  },
+  {
+    "type": "rules",
+    "text": "Der Letzte, der aufsteht, muss 3 Schlücke trinken."
+  },
+  {
+    "type": "rules",
+    "text": "Ab jetzt muss jeder mit der linken Hand trinken. Wer die rechte benutzt, trinkt nochmal."
+  },
+  {
+    "type": "rules",
+    "text": "{player1} legt eine geheime Regel fest. Wer sie zuerst bricht, trinkt 4 Schlücke."
+  }
+]

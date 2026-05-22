@@ -1,0 +1,126 @@
+[
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt reihum Bundesliga-Absteiger. Wer keinen mehr weiß, trinkt 3 Schlücke."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Champions-League-Sieger. Wer zuerst keinen mehr nennen kann, trinkt."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt mit einem Bundesliga-Verein. Danach dürfen nur noch Vereine genannt werden, die noch nie Deutscher Meister waren."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Fußballer mit Ballon-d'Or-Gewinn. Fehler = trinken."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Vereine aus der Premier League 2025/26. Wer keinen mehr weiß, trinkt."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Bundesliga-Torschützenkönige."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt deutsche Nationalspieler der letzten 10 Jahre."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Vereine aus der Serie A."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Spieler, die für Bayern München und Borussia Dortmund gespielt haben."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Weltmeister-Nationen im Fußball."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Vereine aus La Liga."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Fußballer mit über 100 Länderspielen."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt aktuelle Bundesliga-Trainer."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Champions-League-Finalisten."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Vereine aus der Ligue 1."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt ehemalige Schalke-04-Spieler."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Fußballer, die eine Weltmeisterschaft gewonnen haben."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Vereine mit mindestens einem Champions-League-Titel."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt deutsche Fußballstadien."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Vereine aus der 2. Bundesliga."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Spieler von Real Madrid der letzten 15 Jahre."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Premier-League-Meister."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Fußballer mit über 30 Bundesliga-Toren."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Vereine aus der Bundesliga, die international gespielt haben."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Nationalteams der EM 2024."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Fußballer, die für Barcelona gespielt haben."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Vereine mit einem Tier im Logo."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt deutsche Vereine mit mindestens einem DFB-Pokal-Sieg."
+  },
+  {
+    "type": "games",
+    "text": "{player1} startet: Nennt Fußballer mit einem roten Kartensymbol auf einer FIFA-Karte."
+  },
+  {
+    "type": "games",
+    "text": "{player1} beginnt: Nennt Trainer, die die Champions League gewonnen haben."
+  },
+  {
+    "type": "games",
+    "text": "Geographier! -Hauptstadtrunde ... ne Spaß, dass mag doch keiner"
+  }
+]

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import piccoloQuestions from './data/piccolo.json'
 import deepQuestions from './data/deep.json'
+import gameQuestions from './data/games.json'
+import ruleQuestions from './data/rules.json'
 import GamePage from './pages/GamePage'
 import StartPage from './pages/StartPage'
 
@@ -12,6 +14,12 @@ const modeLabels = {
   deep: 'Deep Talk',
   mixed: 'Mixed',
 }
+
+const MIXED_MIN_PARTY_PER_DEEP = 4
+const MIXED_MAX_PARTY_PER_DEEP = 8
+const GAME_CARD_INTERVAL = 5
+const MIN_RULE_CARD_INTERVAL = 10
+const MAX_RULE_CARD_INTERVAL = 15
 
 function shuffle(items) {
   const shuffled = [...items]
@@ -38,6 +46,27 @@ function getStoredPlayers() {
   return emptyPlayers
 }
 
+function getRandomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
+function getMixedQuestionPool() {
+  const partyPerDeep = getRandomInteger(
+    MIXED_MIN_PARTY_PER_DEEP,
+    MIXED_MAX_PARTY_PER_DEEP,
+  )
+  const deepQuestionCount = Math.max(1, Math.ceil(piccoloQuestions.length / partyPerDeep))
+
+  return [
+    ...piccoloQuestions,
+    ...shuffle(deepQuestions).slice(0, deepQuestionCount),
+  ]
+}
+
+function includesSpecialCards(mode) {
+  return mode === 'piccolo' || mode === 'mixed'
+}
+
 function getQuestionPool(mode) {
   if (mode === 'piccolo') {
     return piccoloQuestions
@@ -47,7 +76,7 @@ function getQuestionPool(mode) {
     return deepQuestions
   }
 
-  return [...piccoloQuestions, ...deepQuestions]
+  return getMixedQuestionPool()
 }
 
 function pickPlayer(names, exceptName) {
@@ -64,13 +93,44 @@ function fillPlaceholders(text, playerNames) {
   return text.replaceAll('{player1}', player1).replaceAll('{player2}', player2)
 }
 
-function buildDeck(questions, previousQuestionId) {
-  const deck = shuffle(
-    questions.map((question, index) => ({
-      ...question,
-      id: `${question.type}-${index}-${question.text}`,
-    })),
-  )
+function addQuestionIds(questions) {
+  return questions.map((question, index) => ({
+    ...question,
+    id: `${question.type}-${index}-${question.text}`,
+  }))
+}
+
+function insertSpecialCards(questions) {
+  const deck = []
+  const games = shuffle(addQuestionIds(gameQuestions))
+  const rules = shuffle(addQuestionIds(ruleQuestions))
+  let gameIndex = 0
+  let ruleIndex = 0
+  let nextRuleAt = getRandomInteger(MIN_RULE_CARD_INTERVAL, MAX_RULE_CARD_INTERVAL)
+
+  questions.forEach((question, index) => {
+    const questionNumber = index + 1
+
+    deck.push(question)
+
+    if (questionNumber % GAME_CARD_INTERVAL === 0 && gameIndex < games.length) {
+      deck.push(games[gameIndex])
+      gameIndex += 1
+    }
+
+    if (questionNumber === nextRuleAt && ruleIndex < rules.length) {
+      deck.push(rules[ruleIndex])
+      ruleIndex += 1
+      nextRuleAt += getRandomInteger(MIN_RULE_CARD_INTERVAL, MAX_RULE_CARD_INTERVAL)
+    }
+  })
+
+  return deck
+}
+
+function buildDeck(questions, previousQuestionId, includeSpecialCards = false) {
+  const questionsDeck = shuffle(addQuestionIds(questions))
+  const deck = includeSpecialCards ? insertSpecialCards(questionsDeck) : questionsDeck
 
   if (deck.length > 1 && deck[0].id === previousQuestionId) {
     deck.push(deck.shift())
@@ -118,7 +178,7 @@ function App() {
       return
     }
 
-    const nextDeck = buildDeck(getQuestionPool(mode))
+    const nextDeck = buildDeck(getQuestionPool(mode), undefined, includesSpecialCards(mode))
     setDeck(nextDeck)
     setCardIndex(0)
     setRenderedQuestion(nextDeck[0])
@@ -135,7 +195,7 @@ function App() {
     }
 
     const previousQuestionId = deck[cardIndex]?.id
-    const nextDeck = buildDeck(getQuestionPool(mode), previousQuestionId)
+    const nextDeck = buildDeck(getQuestionPool(mode), previousQuestionId, includesSpecialCards(mode))
     setDeck(nextDeck)
     setCardIndex(0)
     setRenderedQuestion(nextDeck[0])
