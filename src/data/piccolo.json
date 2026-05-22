@@ -1,10 +1,202 @@
 [
   {
     "type": "party",
-    "text": "{player1} drinks 2 sips."
+    "text": "{player1} nennt 5 Bundesliga-Meister. Für jeden Fehler: 2 Schlücke."
   },
   {
     "type": "party",
-    "text": "{player1} gives {player2} a challenge."
+    "text": "{player1} muss die letzten 3 deutschen Bundeskanzler nennen. Schafft er es nicht: trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} erzählt seine peinlichste Suff-Geschichte oder trinkt 4 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} und {player2} machen ein Star-Wars-Quiz. Wer zuerst falsch liegt, trinkt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss ein Kompliment an jeden im Raum machen. Wer lacht, trinkt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} gibt {player2} eine Wahrheit-oder-Pflicht-Aufgabe."
+  },
+  {
+    "type": "party",
+    "text": "Alle, die schon einmal aus Versehen jemandem die falsche Nachricht geschickt haben, trinken 2 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss rückwärts das Alphabet bis M aufsagen. Fehler = trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Marken von Bier. Jede Pause über 3 Sekunden = 1 Schluck."
+  },
+  {
+    "type": "party",
+    "text": "{player1} beschreibt seinen schlimmsten Kater."
+  },
+  {
+    "type": "party",
+    "text": "Alle mit weißem Shirt trinken 2 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss den Akzent von Bayern, Sachsen oder Österreich nachmachen."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Länder in Südamerika. Fehler = trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} verteilt insgesamt 6 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} erzählt von seinem ersten Crush."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss einen TikTok-Tanz für 15 Sekunden machen oder trinken."
+  },
+  {
+    "type": "party",
+    "text": "Wer heute am längsten gebraucht hat, um sich fertig zu machen, trinkt 3 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 4 Pokémon der ersten Generation."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss die Augen schließen. Die Gruppe bestimmt jemanden. Diese Person verteilt 3 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "Alle Singles trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} liest seine letzte WhatsApp-Nachricht laut vor oder trinkt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Fast-Food-Ketten in unter 10 Sekunden."
+  },
+  {
+    "type": "party",
+    "text": "{player1} und {player2} machen Armdrücken. Verlierer trinkt 3 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "Alle, die schon mal im Unterricht eingeschlafen sind, trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss ein Tiergeräusch nachmachen. Wer zuerst lacht, trinkt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} darf jemandem eine Pflicht geben."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Netflix-Serien."
+  },
+  {
+    "type": "party",
+    "text": "Alle mit iPhone trinken 2 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} erzählt von seinem unangenehmsten Date."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss einen Song summen. Wer ihn errät, verteilt 4 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Automarken."
+  },
+  {
+    "type": "party",
+    "text": "Wer zuletzt auf Toilette war, trinkt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} darf zwei Spieler auswählen. Beide trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss ein Selfie mit Duckface machen und zeigen oder trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 3 Songs von Cro, Apache oder RAF Camora."
+  },
+  {
+    "type": "party",
+    "text": "Alle, die schon einmal einen Filmspoiler verraten haben, trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss eine Runde mit britischem Akzent sprechen."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Hauptstädte Europas."
+  },
+  {
+    "type": "party",
+    "text": "{player1} darf jemanden nominieren, der exen muss."
+  },
+  {
+    "type": "party",
+    "text": "{player1} erzählt von seiner größten Red Flag."
+  },
+  {
+    "type": "party",
+    "text": "Alle Männer trinken."
+  },
+  {
+    "type": "party",
+    "text": "Alle Frauen trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss versuchen, 30 Sekunden lang nicht zu lachen, während die Gruppe ihn roastet."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Fußballvereine aus der Bundesliga."
+  },
+  {
+    "type": "party",
+    "text": "{player1} verteilt 5 Schlücke an die lustigste Person im Raum."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss seinen letzten Suchverlauf-Eintrag vorlesen oder trinken."
+  },
+  {
+    "type": "party",
+    "text": "{player1} nennt 5 Energy-Drink-Marken."
+  },
+  {
+    "type": "party",
+    "text": "Alle, die morgen früh raus müssen, trinken 2 Schlücke."
+  },
+  {
+    "type": "party",
+    "text": "{player1} muss jemanden imitieren, der im Raum sitzt."
+  },
+  {
+    "type": "party",
+    "text": "{player1} und {player2} machen Schnick-Schnack-Schnuck. Verlierer trinkt."
   }
 ]

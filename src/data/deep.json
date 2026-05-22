@@ -1,10 +1,122 @@
 [
   {
     "type": "deep",
-    "text": "{player1}, what is one thing you wish people asked you more often?"
+    "text": "Was macht dich im Leben wirklich glücklich?"
   },
   {
     "type": "deep",
-    "text": "{player1}, what is a memory with {player2} that still makes you smile?"
+    "text": "Wie sieht für dich ein erfolgreicher Tag aus?"
+  },
+  {
+    "type": "deep",
+    "text": "Was ist das Erste, woran du morgens nach dem Aufstehen denkst?"
+  },
+  {
+    "type": "deep",
+    "text": "Mit welchem inneren Thema kämpfst du aktuell am meisten?"
+  },
+  {
+    "type": "deep",
+    "text": "Wann fühlst du dich am meisten wie du selbst?"
+  },
+  {
+    "type": "deep",
+    "text": "Welche Menschen geben dir Energie und welche rauben sie dir?"
+  },
+  {
+    "type": "deep",
+    "text": "Welche Angst sprichst du nur selten offen aus?"
+  },
+  {
+    "type": "deep",
+    "text": "Was motiviert dich, auch in schwierigen Zeiten weiterzumachen?"
+  },
+  {
+    "type": "deep",
+    "text": "Was ist dir wichtiger: Ruhe, Erfolg, Freiheit oder Liebe?"
+  },
+  {
+    "type": "deep",
+    "text": "Was wünschen sich andere deiner Meinung nach zu selten von dir zu verstehen?"
+  },
+  {
+    "type": "deep",
+    "text": "Welcher Moment hat deine Sicht auf das Leben am meisten verändert?"
+  },
+  {
+    "type": "deep",
+    "text": "Wofür bist du momentan am dankbarsten?"
+  },
+  {
+    "type": "deep",
+    "text": "Was vermisst du manchmal aus deiner Kindheit?"
+  },
+  {
+    "type": "deep",
+    "text": "Wie sieht die Zukunft aus, die du dir heimlich wünschst?"
+  },
+  {
+    "type": "deep",
+    "text": "Was bedeutet emotionale Sicherheit für dich?"
+  },
+  {
+    "type": "deep",
+    "text": "Welche Gewohnheit oder Denkweise hat dein Leben am meisten verbessert?"
+  },
+  {
+    "type": "deep",
+    "text": "Wovon bräuchtest du aktuell mehr in deinem Leben?"
+  },
+  {
+    "type": "deep",
+    "text": "Wofür musst du dir selbst vielleicht noch vergeben?"
+  },
+  {
+    "type": "deep",
+    "text": "Wie sollte eine enge Freundschaft oder Beziehung für dich aussehen?"
+  },
+  {
+    "type": "deep",
+    "text": "Was bedeutet mentale Stärke für dich?"
+  },
+  {
+    "type": "deep",
+    "text": "Was beruhigt dich sofort, egal wie stressig alles ist?"
+  },
+  {
+    "type": "deep",
+    "text": "Was gibt deinem Leben Sinn?"
+  },
+  {
+    "type": "deep",
+    "text": "Worauf bist du stolz, obwohl andere es kaum wahrnehmen?"
+  },
+  {
+    "type": "deep",
+    "text": "Zu welchem Menschen möchtest du in den nächsten fünf Jahren werden?"
+  },
+  {
+    "type": "deep",
+    "text": "Was glaubst du, erinnern sich andere am meisten an dir?"
+  },
+  {
+    "type": "deep",
+    "text": "Welche Lektion hat dir das Leben auf die harte Tour beigebracht?"
+  },
+  {
+    "type": "deep",
+    "text": "Welche Rolle spielt Liebe in deinem Leben?"
+  },
+  {
+    "type": "deep",
+    "text": "Wann hast du dich das letzte Mal wirklich verstanden gefühlt?"
+  },
+  {
+    "type": "deep",
+    "text": "Worüber denkst du aktuell zu viel nach?"
+  },
+  {
+    "type": "deep",
+    "text": "Wie würde dein ideales Leben aussehen, wenn dich nichts zurückhalten würde?"
   }
 ]
